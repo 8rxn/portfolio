@@ -1,4 +1,4 @@
-import {pnrimg,qrgenimg,gymimg} from '../assets/projectscreenshots/'
+import {pnrimg,qrgenimg,gymimg,portfolioimg} from '../assets/projectscreenshots/'
 import materialuiicon from '../assets/skills/materialui.svg'
 
 export const socialIcons = [
@@ -42,6 +42,13 @@ export const project=[
     subtitle:'   Provides Realtime Data About Your PNR along with all relevant information.',
     link:'https://pnr-tracker-rxn.netlify.app/',
     gitlink:'https://github.com/8rxn/pnr-tracker-rxn'
+  },
+  {
+    title:'Portfolio',
+    img:portfolioimg,
+    subtitle:'This Very own website is also a project by me. ',
+    link:'https://rajxryan.vercel.app',
+    gitlink:'https://github.com/8rxn/portfolio'
   },
   {
     title:'QR Gen',
