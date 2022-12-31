@@ -17,7 +17,7 @@ export const socialIcons = [
   {
     name: 'linkedin',
     class:' fa-brands fa-linkedin',
-    link:'https://linkedin.com/rajxryan',
+    link:'https://linkedin.com/in/rajxryan',
     text:'Connect On LinkedIn'
   },
   {
