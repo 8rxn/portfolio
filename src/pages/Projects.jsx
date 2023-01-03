@@ -12,9 +12,12 @@ const ProjectCard=({item,reverse})=>(
       </div>
       <div className='text-white/90 font-bold text-3xl font-sans md:w-[40vw] w-[90%] md:p-32 p-10'>
       <h1>{item.title}</h1>
+      {item.subtitle.map((subtitleItem)=>(
       <p className='text-lg  text-white/70 mt-5 overflow-x-clip text-start'>
-      {item.subtitle}
+        {subtitleItem.value}
       </p>
+
+      ))}
       <a target={"_blank"} href={item.link}>
       <button className='text-xs border-2 rounded-lg p-2 text-end mt-5 mx-2'>Try Out  <i className="fa-solid fa-up-right-from-square"></i></button></a>
       <a target={"_blank"} href={item.gitlink}>

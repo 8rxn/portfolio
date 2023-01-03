@@ -1,4 +1,4 @@
-import {pnrimg,qrgenimg,gymimg,portfolioimg} from '../assets/projectscreenshots/'
+import {pnrimg,qrgenimg,gymimg,portfolioimg,borrowandlendahandimg} from '../assets/projectscreenshots/'
 import materialuiicon from '../assets/skills/materialui.svg'
 
 export const socialIcons = [
@@ -39,28 +39,35 @@ export const project=[
   {
     title:'PNR Tracker',
     img:pnrimg,
-    subtitle:'   Provides Realtime Data About Your PNR along with all relevant information.',
+    subtitle:[{value:'   Provides Realtime Data About Your PNR along with all relevant information.'}],
     link:'https://pnr-tracker-rxn.netlify.app/',
     gitlink:'https://github.com/8rxn/pnr-tracker-rxn'
   },
   {
     title:'Portfolio',
     img:portfolioimg,
-    subtitle:'This Very own website is also a project by me. ',
+    subtitle:[{value:'This Very own website is also a project by me. '}],
     link:'https://rajxryan.vercel.app',
     gitlink:'https://github.com/8rxn/portfolio'
   },
   {
+    title:'BorrowAndLend-a-hand',
+    img:borrowandlendahandimg,
+    subtitle:[{value:'An application service that helps the community share and reduce wastage of resources.'},{value: ' Hacky New Year - Awarded Best Sustainability Hack sponsored by Avanade '}],
+    link:'https://borrowandlend-a-hand.vercel.app/',
+    gitlink:'https://github.com/duckling69/Borrowandlendahand'
+  },
+  {
     title:'QR Gen',
     img:qrgenimg,
-    subtitle:' Creates Qr Codes from input Prompt with customization such as size and dark mode',
+    subtitle:[{value:' Creates Qr Codes from input Prompt with customization such as size and dark mode'}],
     link:'https://8rxn.github.io/qrgen/',
     gitlink:'https://github.com/8rxn/qrgen'
   },
   {
     title:'GYM-RXN',
     img:gymimg,
-    subtitle:' Provides collection of thousands of exercise categorised by muscle group and equipment. ',
+    subtitle:[{value:' Provides collection of thousands of exercise categorised by muscle group and equipment. '}],
     link:'https://gymrxn.netlify.app/',
     gitlink:'https://github.com/8rxn/gym-app-jsmastery'
   },
