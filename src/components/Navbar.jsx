@@ -3,7 +3,6 @@ import { Link, useLocation } from 'react-router-dom'
 
 const Navbar = () => {
   const {pathname}=useLocation();
-  console.log(pathname)
     return (
         <div className=' fixed flex flex-row justify-center bottom-0 m-auto w-[100%] h-[5vh] my-3 z-10'>
             <div className='flex flex-row justify-around items-center rounded-lg bg-[white] h-[90%] m-auto gap-[5%] w-[300px]'>
