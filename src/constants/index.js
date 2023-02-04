@@ -1,4 +1,4 @@
-import {pnrimg,qrgenimg,gymimg,portfolioimg,borrowandlendahandimg} from '../assets/projectscreenshots/'
+import {pnrimg,qrgenimg,gymimg,portfolioimg,borrowandlendahandimg, phantompressimg} from '../assets/projectscreenshots/'
 import materialuiicon from '../assets/skills/materialui.svg'
 
 export const socialIcons = [
@@ -50,6 +50,15 @@ export const project=[
     link:'https://rajxryan.vercel.app',
     gitlink:'https://github.com/8rxn/portfolio'
   },
+
+  {
+    title:'Phantom Press',
+    img:phantompressimg,
+    subtitle:[{value:'An application service designed to help share anonymous bits of news without any fear.'},{value: 'HackNitr 4.0- Awarded Best Use of Auth0 '}],
+    link:'https://phantompress.co',
+    gitlink:'https://github.com/duckling69/phantompress'
+  },
+
   {
     title:'BorrowAndLend-a-hand',
     img:borrowandlendahandimg,
