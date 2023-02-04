@@ -53,7 +53,7 @@ export const project=[
   {
     title:'BorrowAndLend-a-hand',
     img:borrowandlendahandimg,
-    subtitle:[{value:'An application service that helps the community share and reduce wastage of resources.'},{value: ' Hacky New Year - Awarded Best Sustainability Hack sponsored by Avanade '}],
+    subtitle:[{value:'An application service that helps the community share and reduce wastage of resources.'},{value: 'Hacky New Year - Awarded Best Sustainability Hack sponsored by Avanade '}],
     link:'https://borrowandlend-a-hand.vercel.app/',
     gitlink:'https://github.com/duckling69/Borrowandlendahand'
   },

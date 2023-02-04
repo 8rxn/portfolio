@@ -5,7 +5,7 @@ const Navbar = () => {
   const {pathname}=useLocation();
     return (
         <div className=' fixed flex flex-row justify-center bottom-0 m-auto w-[100%] h-[5vh] my-3 z-10'>
-            <div className='flex flex-row justify-around items-center rounded-lg bg-[white] h-[90%] m-auto gap-[5%] w-[300px]'>
+            <div className='flex flex-row justify-evenly items-center rounded-lg bg-[white] h-[90%] m-auto gap-[5%] lg:w-[20vw] w-[300px]'>
 
             <Link to='/'>
 
@@ -52,6 +52,17 @@ const Navbar = () => {
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill={`${pathname==='/contact'?'#2f2e41':'grey'}`} className="w-6 h-6 nav-icon">
   <path fillRule="evenodd" d="M4.804 21.644A6.707 6.707 0 006 21.75a6.721 6.721 0 003.583-1.029c.774.182 1.584.279 2.417.279 5.322 0 9.75-3.97 9.75-9 0-5.03-4.428-9-9.75-9s-9.75 3.97-9.75 9c0 2.409 1.025 4.587 2.674 6.192.232.226.277.428.254.543a3.73 3.73 0 01-.814 1.686.75.75 0 00.44 1.223zM8.25 10.875a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25zM10.875 12a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0zm4.875-1.125a1.125 1.125 0 100 2.25 1.125 1.125 0 000-2.25z" clipRule="evenodd" />
 </svg>
+
+              </div>
+          </Link>
+
+            <Link to='/shutterbug'>
+
+                <div className='grid place-items-center rounded-[50%] w-10 h-10'>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill={`${pathname==='/shutterbug'?'#2f2e41':'grey'}`} className="w-6 h-6 nav-icon">
+  <path fillRule="evenodd" d="M1.5 6a2.25 2.25 0 012.25-2.25h16.5A2.25 2.25 0 0122.5 6v12a2.25 2.25 0 01-2.25 2.25H3.75A2.25 2.25 0 011.5 18V6zM3 16.06V18c0 .414.336.75.75.75h16.5A.75.75 0 0021 18v-1.94l-2.69-2.689a1.5 1.5 0 00-2.12 0l-.88.879.97.97a.75.75 0 11-1.06 1.06l-5.16-5.159a1.5 1.5 0 00-2.12 0L3 16.061zm10.125-7.81a1.125 1.125 0 112.25 0 1.125 1.125 0 01-2.25 0z" clipRule="evenodd" />
+</svg>
+
 
               </div>
           </Link>

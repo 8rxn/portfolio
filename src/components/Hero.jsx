@@ -34,7 +34,7 @@ exit={{x:'-100%'}}
                 Lets Talk
             </button>
               </Link>
-              <a href="https://drive.google.com/file/d/1yE5xs95Xaok9QUpYZEsxBBSil3u2Yxxb/view?usp=share_link" target='_blank'>
+              <a href="https://drive.google.com/drive/folders/1cqlGH0fJjmC2ITGaTDQIC7420G9P5dDi" target='_blank'>
             <button className='outline-2 text-white bg-[#1f1f1f] rounded-lg hover:bg-[#252525] px-3 py-2'>
 
                 Resume
