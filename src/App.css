@@ -10,3 +10,27 @@
     fill: #EF4444;
 
 }
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #252525;
+    border-radius: 100px;
+
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #e8e8e8;
+    border-radius: 100px;
+    transition: 2ms ease-in;
+}
+
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d0c9e8;
+  }
