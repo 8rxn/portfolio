@@ -28,19 +28,19 @@ const Skills = () => {
         animate={{ opacity: 1,y:"0" }}
 transition={{ ease:'easeIn', duration:'0.5',type:'spring' }}
 exit={{x:'-100%'}}>
-            <div className='md:w-[70vw] w-[90vw] md:h-[80vh] h-[100vh] p-10' >
+            <div className='md:w-[70vw] w-[90vw] md:h-[80vh] h-[90vh] sm:p-10 p-5' >
                 <h1 className='text-center text-white md:text-5xl text-3xl font-bold md:mb-5 mb-10'>
                     Tech That I'm Familiar With
                 </h1>
 
-                <div className='flex flex-col-reverse md:flex-row '>
-                    <div className='flex flex-row md:w-[40vw] w-[100vw] flex-wrap'>
+                <div className='flex flex-col-reverse xl:flex-row xl:items-start justify-center items-center '>
+                    <div className='flex flex-row xl:w-[42vw] w-full justify-evenly  m-auto flex-wrap'>
                         {techStack.map((item, i) => (
                             <TechCard key={i} item={item} />
                         ))}
                     </div>
-                    <div className='grid place-items-center md:my-5 my-10'>
-                        <img className='w-[70vw] lg:w-96' src={skillsimg} alt="" />
+                    <div className='grid place-items-center md:my-5 my-10 py-20'>
+                        <img className='w-[70vw] lg:w-[25vw]' src={skillsimg} alt="" />
                     </div>
                 </div>
             </div>

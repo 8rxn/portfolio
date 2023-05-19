@@ -1,12 +1,15 @@
-import {pnrimg,qrgenimg,gymimg,portfolioimg,borrowandlendahandimg, phantompressimg} from '../assets/projectscreenshots/'
+import {pnrimg,qrgenimg,gymimg,portfolioimg,borrowandlendahandimg, phantompressimg,paypolimg,tribetangoimg} from '../assets/projectscreenshots/'
 import materialuiicon from '../assets/skills/materialui.svg'
+import golangicon from '../assets/skills/golang.svg'
+import nextjsicon from '../assets/skills/nextjs.svg'
+import daisyuiicon from '../assets/skills/daisyui.svg'
 
 export const socialIcons = [
   {
     name: 'github',
     class:' fa-brands fa-github',
     link:'https://github.com/8rxn',
-    text:'Fork My Reps On Github'
+    text:'Fork My Repos On Github'
   },
   {
     name: 'twitter',
@@ -42,6 +45,20 @@ export const project=[
     subtitle:[{value:'   Provides Realtime Data About Your PNR along with all relevant information.'}],
     link:'https://pnr-tracker-rxn.netlify.app/',
     gitlink:'https://github.com/8rxn/pnr-tracker-rxn'
+  },
+  {
+    title:'PayPol',
+    img:paypolimg,
+    subtitle:[{value:'A web3 based project for managing transactions and cryptocurrencies on the Ethereum blockchain.'},{value: 'EthForAll By Devfolio'}],
+    link:'https://paypol.vercel.app',
+    gitlink:'https://github.com/anushrxy/project-1ndex'
+  },
+  {
+    title:'TribeTango',
+    img:tribetangoimg,
+    subtitle:[{value:'TribeTango is a platform for our fellow gamers to connect and interact with each other while making this whole process fun and rewarding just like a game.'},{value: 'HACK 36 6.0 - Awarded Best Use of Verbwire API'}],
+    link:'https://tribetango.vercel.app',
+    gitlink:'https://github.com/8rxn/projectbarfi'
   },
   {
     title:'Portfolio',
@@ -100,6 +117,18 @@ export const techStack=[
     className:'fa-brands fa-react'
   },
   {
+    src: materialuiicon
+  },
+  {
+    src: golangicon
+  },
+  {
+    src: nextjsicon
+  },
+  {
+    src: daisyuiicon
+  },
+  {
     className:'fa-brands fa-bootstrap'
   },
   {
@@ -114,7 +143,5 @@ export const techStack=[
   {
     className:'fa-brands fa-python'
   },
-  {
-    src: materialuiicon
-  }
+
 ]

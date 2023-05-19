@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const ProjectCard=({item,reverse})=>(
   <>
   <div className={` m-auto md:w-auto  w-[80vw] flex  ${reverse?'md:flex-row-reverse' :'md:flex-row'}   flex-col justify-evenly py-10 rounded-xl sm:my-10 my-3`}>
-    <div className='grid place-items-center aspect-square p-5 shadow-md bg-[#FEFCF3] md:w-[40%] w-[90%]'> 
+    <div className='grid place-items-center aspect-square p-5 bg-[#FEFCF3] md:w-[40%] w-[90%] shadow-inner shadow-black rounded-sm blur-[1px]   hover:blur-0     '> 
     <img src={item.img} className='object-cover w-[100%] hover:scale-110 ease-in duration-150' alt="" />
 
       </div>

@@ -5,7 +5,7 @@ const Navbar = () => {
   const { pathname } = useLocation();
   return (
     <div className=' fixed flex flex-row justify-center bottom-0 m-auto w-[100%] h-[5vh] my-3 z-10'>
-      <div className='flex flex-row justify-evenly items-center rounded-lg bg-[white] h-[90%] m-auto gap-[5%] lg:w-[20vw] w-[300px]'>
+      <div className='flex flex-row justify-evenly items-center rounded-lg bg-[white] h-fit m-auto gap-[5%] xl:w-[25vw] min-[500px]:w-[400px] min-[400px]:w-[350px] w-[320px]'>
 
         <Link to='/'>
 
