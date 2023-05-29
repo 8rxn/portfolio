@@ -117,6 +117,18 @@ export const techStack=[
     className:'fa-brands fa-react'
   },
   {
+    className:'fa-brands fa-markdown'
+  },
+  {
+    className:'fa-brands fa-git-alt'
+  },
+  {
+    className:'fa-brands fa-github'
+  },
+  {
+    className:'fa-brands fa-docker'
+  },
+  {
     src: materialuiicon
   },
   {

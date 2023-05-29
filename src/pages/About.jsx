@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import rajImg from "../assets/self.jpg";
+import rajImg from "../assets/self.png";
 import { motion } from "framer-motion";
 import {AiOutlineInfoCircle} from "react-icons/ai"
 
@@ -25,8 +25,9 @@ const About = () => {
               </span>
               . A Sophomore Of Mechanical Engg. NIT Rourkela but I sure don't
               like the course I took myself into. <br /> I find Web Dev fun.
-              Currently I'm playing around with React JS and Firebase. <br /> I
-              also write informative posts on LinkedIn sometimes. <br />
+              Currently I'm playing around with Next JS.<br/>
+              Also into Open Source - Open Source Developer at Meshery and Layer5 <br /> I
+              write informative posts on my socials sometimes. <br />
             </p>
           <div className=" p-4 bg-gray-600/20 flex gap-4 justify-between items-center rounded-lg mt-12">
               <div className="text-xl sm:text-3xl h-full text-[#ef4444]/60">
