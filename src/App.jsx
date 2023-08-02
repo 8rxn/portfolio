@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import {Routes,Route} from "react-router-dom"
 import {Hero,Navbar} from './components'
-import { About,Projects,Skills,Contact,Fof, Shutter } from './pages'
+import { About,Projects,Skills,Contact,Fof, Shutter,Call } from './pages'
 import { AnimatePresence } from 'framer-motion'
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
       <Route path='/skills' element={<Skills/>}></Route>
       <Route path='/contact' element={<Contact/>}></Route>
       <Route path='/shutterbug' element={<Shutter/>}></Route>
+      <Route path='/call' element={<Call/>}></Route>
       <Route path='/*' element={<Fof/>}></Route>
 
       </Routes>

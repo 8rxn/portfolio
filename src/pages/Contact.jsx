@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
+
 import { socialIcons } from "../constants";
 
 const Contact = () => {
@@ -17,6 +18,14 @@ const Contact = () => {
 
         <div className="flex flex-col-reverse md:flex-row justify-around mt-10 w-[100%]">
           <div className="md:w-[50%] w-[100%]  my-16">
+            <div className="text-white mb-16">
+              <h1 className="text-bold text-2xl font-semibold">Need a chat?</h1>
+              <a href="/call">
+                <p className="my-5 text-center underline underline-offset-8 font-sans-serif text-xl w-fit mx-auto p-1 tracking-widest hover:bg-[#ef4444]/10 transition rounded-sm	">
+                  Schedule a meeting
+                </p>
+              </a>
+            </div>
             <h2 className="text-white font-bold text-2xl mb-3">
               Send A Message
             </h2>
