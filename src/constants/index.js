@@ -1,4 +1,4 @@
-import {pnrimg,qrgenimg,gymimg,portfolioimg,borrowandlendahandimg, phantompressimg,paypolimg,tribetangoimg} from '../assets/projectscreenshots/'
+import {pnrimg,qrgenimg,gymimg,portfolioimg,borrowandlendahandimg, phantompressimg,paypolimg,tribetangoimg,infinitemealsimg} from '../assets/projectscreenshots/'
 import materialuiicon from '../assets/skills/materialui.svg'
 import golangicon from '../assets/skills/golang.svg'
 import nextjsicon from '../assets/skills/nextjs.svg'
@@ -39,6 +39,13 @@ export const socialIcons = [
 ];
 
 export const project=[
+  {
+    title:'Infinite Meals',
+    img: infinitemealsimg,
+    subtitle:[{value:'Infinite Meals is a recipe search engine that uses OpenAI\'s Text Davinci 003 Model through Open AI API to generate recipes for any given Food. '},{value:"It\'s a simple and easy way to find new recipes and get inspiration for your next meal."}],
+    link:'https://infinitemeals.vercel.app/',
+    gitlink:'https://github.com/8rxn/infinitemeals'
+  },
   {
     title:'PNR Tracker',
     img:pnrimg,
