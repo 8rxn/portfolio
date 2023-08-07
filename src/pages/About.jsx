@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import rajImg from "../assets/self.png";
 import { motion } from "framer-motion";
-import {AiOutlineInfoCircle} from "react-icons/ai"
+import { AiOutlineInfoCircle } from "react-icons/ai";
 
 const About = () => {
   return (
@@ -23,15 +23,38 @@ const About = () => {
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#EF4444] to-[#2f2e41] text-ellipsis">
                 Raj Aryan
               </span>
-              . A Sophomore Of Mechanical Engg. NIT Rourkela but I sure don't
-              like the course I took myself into. <br /> I find Web Dev fun.
-              Currently I'm playing around with Next JS.<br/>
-              Also into Open Source - Open Source Developer at Meshery and Layer5 <br /> I
-              write informative posts on my socials sometimes. <br />
+              . A Pre-Final Of Mechanical Engg. NIT Rourkela but I'm into
+              multiple things, chasing interests. <br /> I find Web Dev fun.
+              <br />
+              BTW, Lead Organizer at{" "}
+              <a
+                href="https://www.hackodisha.tech"
+                target="_blank"
+                rel="noreferrer"
+                className=" border-b-2 border-[#EF4444] border-opacity-25 transition ease-in hover:border-opacity-75 "
+              >
+                <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#EF4444] to-[#2f2e41] text-ellipsis">
+                  HackOdisha 3.0
+                </span>
+              </a>
+              {" , "} Vice President{" "}
+              <a
+                href="https://teamwebwiz.dev"
+                target="_blank"
+                rel="noreferrer"
+                className=" border-b-2 border-[#EF4444] border-opacity-25 transition ease-in hover:border-opacity-75 "
+              >
+                <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#EF4444] to-[#2f2e41] text-ellipsis">
+                  Webwiz
+                </span>
+              </a>
+              . <br /> Also into Open Source - Open Source Developer at Meshery
+              and Layer5 <br /> I write informative posts on my socials
+              sometimes. <br />
             </p>
-          <div className=" p-4 bg-gray-600/20 flex gap-4 justify-between items-center rounded-lg mt-12">
+            <div className=" p-4 bg-gray-600/20 flex gap-4 justify-between items-center rounded-lg mt-12">
               <div className="text-xl sm:text-3xl h-full text-[#ef4444]/60">
-              <AiOutlineInfoCircle></AiOutlineInfoCircle>
+                <AiOutlineInfoCircle></AiOutlineInfoCircle>
               </div>
               <p className="text-sm sm:text-lg font-medium tracking-wider   ">
                 The performance of the site is not great. I'm in the process of
