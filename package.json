@@ -15,8 +15,7 @@
     "react-calendly": "^4.1.1",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
-    "react-router-dom": "^6.6.1",
-    "sitemap": "^7.1.1"
+    "react-router-dom": "^6.6.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.26",
