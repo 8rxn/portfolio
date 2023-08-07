@@ -38,23 +38,38 @@ const ProjectCard = ({ item, reverse }) => (
           {item.title}
         </h2>
         {item.subtitle.map((subtitleItem) => (
-          <p className="text-base font-light">{subtitleItem.value}</p>
+          <p className="text-base font-light mb-4">{subtitleItem.value}</p>
         ))}
       </div>
-      <div className="flex justify-end w-full text-slate-100 gap-2">
-        <a target={"_blank"} href={item.link}>
+
+      {item.gitlink == undefined ? (
+        <div className="flex justify-between w-full text-slate-100 gap-2">
           <button className="text-xs border-2 rounded-lg p-2 text-end hover:bg-[#ef4444]/20 transition ease-in">
-            Try Out <i className="fa-solid fa-up-right-from-square"></i>
+            {item.state}
           </button>
-        </a>
-        <a
-          target={"_blank"}
-          href={item.gitlink}
-          className="text-sm underline underline-offset-8 py-2 px-1 rounded-sm text-end hover:bg-[#ef4444]/20 backdrop-blur-sm"
-        >
-          Fork on Github <i className="fa-brands fa-square-github"></i>
-        </a>
-      </div>
+
+          <a target={"_blank"} href={item.link}>
+            <button className="text-xs border-2 rounded-lg p-2 text-end hover:bg-[#ef4444]/20 transition ease-in">
+              Visit <i className="fa-solid fa-up-right-from-square"></i>
+            </button>
+          </a>
+        </div>
+      ) : (
+        <div className="flex justify-end w-full text-slate-100 gap-2">
+          <a target={"_blank"} href={item.link}>
+            <button className="text-xs border-2 rounded-lg p-2 text-end hover:bg-[#ef4444]/20 transition ease-in">
+              Try Out <i className="fa-solid fa-up-right-from-square"></i>
+            </button>
+          </a>
+          <a
+            target={"_blank"}
+            href={item.gitlink}
+            className="text-sm underline underline-offset-8 py-2 px-1 rounded-sm text-end hover:bg-[#ef4444]/20 backdrop-blur-sm"
+          >
+            Fork on Github <i className="fa-brands fa-square-github"></i>
+          </a>
+        </div>
+      )}
     </div>
   </>
 );
