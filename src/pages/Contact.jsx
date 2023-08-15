@@ -15,23 +15,21 @@ const Contact = () => {
         <title>Contact Me - Raj Aryan</title>
         <meta
           name="description"
-          content="Get in touch with Raj Aryan. Schedule a meeting, send a message, or reach out through various social media channels. Feel free to write an email directly to rajxryn@gmail.com."
+          content="Get in touch with Raj Aryan. Schedule a meeting, send a message, or reach out through various social media channels. Feel free to write an email directly to hi@rajaryan.work"
         />
-        {/* Open Graph tags */}
         <meta property="og:title" content="Contact Me - Raj Aryan" />
         <meta
           property="og:description"
-          content="Get in touch with Raj Aryan. Schedule a meeting, send a message, or reach out through various social media channels. Feel free to write an email directly to rajxryn@gmail.com."
+          content="Get in touch with Raj Aryan. Schedule a meeting, send a message, or reach out through various social media channels. Feel free to write an email directly to hi@rajaryan.work"
         />
         <meta property="og:image" content="https://rajaryan.work/banner.png" />
         <meta property="og:url" content="https://rajaryan.work/contact" />
 
-        {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Contact Me - Raj Aryan" />
         <meta
           name="twitter:description"
-          content="Get in touch with Raj Aryan. Schedule a meeting, send a message, or reach out through various social media channels. Feel free to write an email directly to rajxryn@gmail.com."
+          content="Get in touch with Raj Aryan. Schedule a meeting, send a message, or reach out through various social media channels. Feel free to write an email directly to hi@rajaryan.work"
         />
         <meta name="twitter:image" content="https://rajaryan.work/banner.png" />
       </Helmet>
@@ -137,9 +135,9 @@ const Contact = () => {
               <h1 className="text-bold text-2xl font-semibold">
                 Or you can write a mail directly to
               </h1>
-              <a href="mailto:rajxryn@gmail.com">
+              <a href="mailto:hi@rajaryan.work">
                 <p className="my-5 text-center underline underline-offset-8 font-sans-serif text-xl tracking-widest	">
-                  rajxryn@gmail.com
+                  hi@rajaryan.work
                 </p>
               </a>
             </div>
