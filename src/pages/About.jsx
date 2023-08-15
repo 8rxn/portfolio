@@ -1,8 +1,8 @@
 import React from "react";
-import { useState, useEffect } from "react";
-import rajImg from "../assets/self.png";
 import { motion } from "framer-motion";
 import { AiOutlineInfoCircle } from "react-icons/ai";
+import rajImg from "../assets/self.png";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   return (
@@ -12,6 +12,30 @@ const About = () => {
       transition={{ ease: "easeIn", duration: "0.5", type: "spring" }}
       exit={{ x: "-100%" }}
     >
+      <Helmet>
+        <title>About Me - Raj Aryan</title>
+        <meta
+          name="description"
+          content="Raj Aryan | Pre-Final Mechanical Engineering student at NIT Rourkela | Lead Organizer at HackOdisha 3.0 | Vice President at Webwiz | Explore my journey in web development, and my contributions as an Open Source Developer at Meshery and Layer5."
+        />
+        {/* Open Graph tags */}
+        <meta property="og:title" content="About Me - Raj Aryan" />
+        <meta
+          property="og:description"
+          content="Dive into the profile of Raj Aryan, A Pre- Final year Student at NIT Rourkela. Lead Organizer at HackOdisha 3.0, Vice President at Webwiz."
+        />
+        <meta property="og:image" content={rajImg} />
+        <meta property="og:url" content="Your page URL here" />
+
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="About Me - Raj Aryan" />
+        <meta
+          name="twitter:description"
+          content="Dive into the profile of Raj Aryan, A Pre- Final year Student at NIT Rourkela. Lead Organizer at HackOdisha 3.0, Vice President at Webwiz."
+        />
+        <meta name="twitter:image" content={rajImg} />
+      </Helmet>
       <div className="md:w-[70vw] w-[90vw] md:h-[80vh] h-[100vh] p-5 lg:p-10">
         <h1 className="text-center text-white md:text-5xl sm:text-3xl text-xl font-bold mb-5">
           About Me:
@@ -68,7 +92,7 @@ const About = () => {
             <img
               src={rajImg}
               className=" w-full ease-in aspect-square object-cover rounded-[50%]"
-              alt=""
+              alt="Raj Aryan"
             />
           </div>
         </div>

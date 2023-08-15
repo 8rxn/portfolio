@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import React from "react";
-
 import { socialIcons } from "../constants";
+import { Helmet } from "react-helmet";
 
 const Contact = () => {
   return (
@@ -11,6 +11,31 @@ const Contact = () => {
       transition={{ ease: "easeIn", duration: "0.5", type: "spring" }}
       exit={{ x: "-100%" }}
     >
+      <Helmet>
+        <title>Contact Me - Raj Aryan</title>
+        <meta
+          name="description"
+          content="Get in touch with Raj Aryan. Schedule a meeting, send a message, or reach out through various social media channels. Feel free to write an email directly to rajxryn@gmail.com."
+        />
+        {/* Open Graph tags */}
+        <meta property="og:title" content="Contact Me - Raj Aryan" />
+        <meta
+          property="og:description"
+          content="Get in touch with Raj Aryan. Schedule a meeting, send a message, or reach out through various social media channels. Feel free to write an email directly to rajxryn@gmail.com."
+        />
+        <meta property="og:image" content="https://rajaryan.work/banner.png" />
+        <meta property="og:url" content="https://rajaryan.work/contact" />
+
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Contact Me - Raj Aryan" />
+        <meta
+          name="twitter:description"
+          content="Get in touch with Raj Aryan. Schedule a meeting, send a message, or reach out through various social media channels. Feel free to write an email directly to rajxryn@gmail.com."
+        />
+        <meta name="twitter:image" content="https://rajaryan.work/banner.png" />
+      </Helmet>
+
       <div className="md:w-[70vw] w-[90vw] md:h-[80vh] h-[100vh] p-10">
         <h1 className="text-center text-white md:text-5xl text-3xl font-bold font-sans-serif md:mb-5 mb-10">
           Contact Me:
