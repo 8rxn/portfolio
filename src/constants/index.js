@@ -8,6 +8,7 @@ import {
   paypolimg,
   tribetangoimg,
   infinitemealsimg,
+  gitmeimg,
   aksharpharmacyimg,
 } from "../assets/projectscreenshots/";
 import materialuiicon from "../assets/skills/materialui.svg";
@@ -35,16 +36,10 @@ export const socialIcons = [
     text: "Connect On LinkedIn",
   },
   {
-    name: "instagram",
-    class: " fa-brands fa-instagram",
-    link: "https://instagram.com/rajxryan",
-    text: "See My profile on Instagram",
-  },
-  {
-    name: "buymeacoffee",
-    class: " fa-solid fa-mug-hot",
-    link: "https://buymeacoffee.com/rajxn",
-    text: "Buy Me a Coffee",
+    name: "blog",
+    class: " fa-brands fa-hashnode",
+    link: "https://blog.rajaryan.work",
+    text: "Look Through My Blogs",
   },
 ];
 
@@ -55,7 +50,7 @@ export const project = [
     subtitle: [
       {
         value:
-          "Infinite Meals is a recipe search engine that uses OpenAI's Text Davinci 003 Model through Open AI API to generate recipes for any given Food. ",
+          "Infinite Meals is a recipe search engine that uses OpenAI's GPT-3.5-Turbo-1106 Model through Open AI API to generate recipes for any given Food. ",
       },
       {
         value:
@@ -71,13 +66,28 @@ export const project = [
     subtitle: [
       {
         value:
-          "Brand Website for Akshar Pharmacy, an Amazon-based company specialising in Ayurvedic beauty items",
+        "Brand Website for Akshar Pharmacy, an Amazon-based company specialising in Ayurvedic beauty items",
       },
     ],
     link: "https://www.aksharpharmacy.com/",
     state: "Freelance",
   },
-
+  {
+    title: "GitMe",
+    img: gitmeimg,
+    subtitle: [
+      {
+        value:
+          "GitMe is a Github Card Generator that uses Github API to fetch user data and generate a card for the user. ",
+      },
+      {
+        value: "Runs on Cloudflare Workers.",
+      },
+    ],
+    link: "https://gitme.rajaryan.work/",
+    gitlink: "https://github.com/8rxn/gitme",
+  },
+  
   {
     title: "TribeTango",
     img: tribetangoimg,

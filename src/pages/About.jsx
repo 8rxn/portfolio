@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { AiOutlineInfoCircle } from "react-icons/ai";
-import rajImg from "../assets/self.png";
+import rajImg from "../assets/self.jpeg";
 import { Helmet } from "react-helmet";
 
 const About = () => {
@@ -72,8 +72,7 @@ const About = () => {
                   Webwiz
                 </span>
               </a>
-              . <br /> Also into Open Source - Open Source Developer at Meshery
-              and Layer5 <br /> I write informative posts on my socials
+              . <br /> Also into Open Source - Building something Go, Clouddflare or Kubernetes <br /> I write informative posts on my socials
               sometimes. <br />
             </p>
             <div className=" p-4 bg-gray-600/20 flex gap-4 justify-between items-center rounded-lg mt-12">
@@ -88,7 +87,7 @@ const About = () => {
             </div>
           </div>
 
-          <div className="sm:w-[500px] w-full m-auto">
+          <div className="sm:w-[500px] w-1/2 m-auto">
             <img
               src={rajImg}
               className=" w-full ease-in aspect-square object-cover rounded-[50%]"
