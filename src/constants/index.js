@@ -10,6 +10,7 @@ import {
   infinitemealsimg,
   gitmeimg,
   aksharpharmacyimg,
+  nuimg,
 } from "../assets/projectscreenshots/";
 import materialuiicon from "../assets/skills/materialui.svg";
 import golangicon from "../assets/skills/golang.svg";
@@ -45,6 +46,21 @@ export const socialIcons = [
 
 export const project = [
   {
+    title: "Nitrutsav",
+    img: nuimg,
+    subtitle: [
+      {
+        value:
+          "Nitrutsav is the annual cultural fest of NIT Rourkela, one of the largest of its kind in Eastern India.",
+      },
+      {
+        value: "",
+      },
+    ],
+    link: "https://nitrutsav.com/",
+    state: "College Fest",
+  },
+  {
     title: "Infinite Meals",
     img: infinitemealsimg,
     subtitle: [
@@ -66,7 +82,7 @@ export const project = [
     subtitle: [
       {
         value:
-        "Brand Website for Akshar Pharmacy, an Amazon-based company specialising in Ayurvedic beauty items",
+          "Brand Website for Akshar Pharmacy, an Amazon-based company specialising in Ayurvedic beauty items",
       },
     ],
     link: "https://www.aksharpharmacy.com/",
@@ -87,7 +103,7 @@ export const project = [
     link: "https://gitme.rajaryan.work/",
     gitlink: "https://github.com/8rxn/gitme",
   },
-  
+
   {
     title: "TribeTango",
     img: tribetangoimg,
@@ -234,3 +250,8 @@ export const techStack = [
     className: "fa-brands fa-python",
   },
 ];
+
+export const currentProjects = {
+  ongoing: ["React Like library in JS"],
+  planned: ["TCP Server in Rust"],
+};

@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { Helmet } from "react-helmet";
 
 const TechCard = ({ item }) => (
-  <div className="md:p-10 p-5 bg-white grid place-items-center aspect-square rounded-md m-10 hover: hover:fill-[#ef4444] hover:text-[#ef4444] ease-in duration-150">
+  <div className="md:p-10 p-5 bg-neutral-800 grid place-items-center aspect-square rounded-md m-2 hover: hover:fill-[#ef4444] hover:text-[#ef4444] ease-in duration-150">
     {item.className ? (
       <i
         className={`fa-brands ${item.className || ""} md:text-5xl text-3xl `}
@@ -75,7 +75,7 @@ const Skills = () => {
         </h1>
 
         <div className="flex flex-col-reverse justify-center items-center ">
-          <div className="flex flex-row w-full justify-evenly  m-auto flex-wrap">
+          <div className="grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 2xl:grid-cols-6  w-full justify-evenly m-auto ">
             {techStack.map((item, i) => (
               <TechCard key={i} item={item} />
             ))}
