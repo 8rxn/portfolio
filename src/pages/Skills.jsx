@@ -71,7 +71,7 @@ const Skills = () => {
       
       <div className="md:w-[70vw] w-[90vw] md:h-[80vh] h-[90vh] sm:p-10 p-5">
         <h1 className="text-center text-white md:text-5xl text-3xl font-bold md:mb-5 mb-10">
-          Tech That I'm Familiar With
+          Tech That I'm Familiar With <br/> (not comprehensive, I keep learning)
         </h1>
 
         <div className="flex flex-col-reverse justify-center items-center ">
