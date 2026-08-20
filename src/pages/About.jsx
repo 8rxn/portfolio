@@ -16,7 +16,7 @@ const About = () => {
         <title>About Me - Raj Aryan</title>
         <meta
           name="description"
-          content="Raj Aryan | Pre-Final Mechanical Engineering student at NIT Rourkela | Lead Organizer at HackOdisha 3.0 | Vice President at Webwiz | Explore my journey in web development, and my contributions as an Open Source Developer at Meshery and Layer5."
+          content="Raj Aryan | Backend Engineer at Aspora. | previously WorkerAI"
         />
         {/* Open Graph tags */}
         <meta property="og:title" content="About Me - Raj Aryan" />
@@ -47,42 +47,25 @@ const About = () => {
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#EF4444] to-[#2f2e41] text-ellipsis">
                 Raj Aryan
               </span>
-              . A Pre-Final Of Mechanical Engg. NIT Rourkela but I'm into
-              multiple things, chasing interests. <br /> I find Web Dev fun.
-              <br />
-              BTW, Lead Organizer at{" "}
+              Backend Engineer {" "}
               <a
-                href="https://www.hackodisha.tech"
+                href="https://www.aspora.com"
                 target="_blank"
                 rel="noreferrer"
                 className=" border-b-2 border-[#EF4444] border-opacity-25 transition ease-in hover:border-opacity-75 "
               >
                 <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#EF4444] to-[#2f2e41] text-ellipsis">
-                  HackOdisha 3.0
+                  Aspora
                 </span>
               </a>
-              {" , "} Vice President{" "}
-              <a
-                href="https://teamwebwiz.dev"
-                target="_blank"
-                rel="noreferrer"
-                className=" border-b-2 border-[#EF4444] border-opacity-25 transition ease-in hover:border-opacity-75 "
-              >
-                <span className="text-transparent bg-clip-text bg-gradient-to-br from-[#EF4444] to-[#2f2e41] text-ellipsis">
-                  Webwiz
-                </span>
-              </a>
-              . <br /> Also into Open Source - Building something Go, Clouddflare or Kubernetes <br /> I write informative posts on my socials
-              sometimes. <br />
+              . <br /> previously WorkerAI <br />
             </p>
             <div className=" p-4 bg-gray-600/20 flex gap-4 justify-between items-center rounded-lg mt-12">
               <div className="text-xl sm:text-3xl h-full text-[#ef4444]/60">
                 <AiOutlineInfoCircle></AiOutlineInfoCircle>
               </div>
               <p className="text-sm sm:text-lg font-medium tracking-wider   ">
-                The performance of the site is not great. I'm in the process of
-                migrating this website to Next.js for Server Side Rendering and
-                better SEO.
+                Likely stale
               </p>
             </div>
           </div>
